@@ -1,0 +1,61 @@
+{
+  "enumerated": {
+    "html": {
+      "autocomplete": ["on", "off"],
+      "border": ["1", ""],
+      "contenteditable": ["true", "false", ""],
+      "crossorigin": ["anonymous", "use-credentials"],
+      "dir": ["ltr", "rtl", "auto"],
+      "draggable": ["true", "false", "auto"],
+      "enctype": ["application/x-www-form-urlencoded", "multipart/form-data", "text/plain"],
+      "formenctype": ["application/x-www-form-urlencoded", "multipart/form-data", "text/plain"],
+      "formmethod": ["get", "post", "dialog"],
+      "formtarget": ["_blank", "_self", "_parent", "_top"],
+      "inputmode": ["verbatim", "latin", "latin-name", "latin-prose", "full-width-latin", "kana", "kana-name", "katakana", "numeric", "tel", "email", "url"],
+      "kind": ["subtitles", "captions", "descriptions", "chapters", "metadata"],
+      "link": ["alternate", "author", "bookmark", "external", "help", "icon", "license", "next", "nofollow", "noopener", "noreferrer", "prefetch", "prev", "search", "stylesheet", "tag"],
+      "method": ["get", "post", "dialog"],
+      "preload": ["none", "metadata", "auto"],
+      "referrerpolicy": ["no-referrer", "no-referrer-when-downgrade", "same-origin", "origin", "strict-origin", "origin-when-cross-origin", "strict-origin-when-cross-origin", "unsafe-url", ""],
+      "rel": {
+        "a": ["alternate", "author", "bookmark", "external", "help", "icon", "license", "next", "nofollow", "noopener", "noreferrer", "prefetch", "prev", "search", "stylesheet", "tag"],
+        "area": ["alternate", "author", "bookmark", "external", "help", "icon", "license", "next", "nofollow", "noopener", "noreferrer", "prefetch", "prev", "search", "stylesheet", "tag"],
+        "link": ["alternate", "dns-prefetch", "icon", "next", "pingback", "preconnect", "prefetch", "preload", "prerender", "search", "serviceworker", "stylesheet"]
+      },
+      "rev": ["alternate", "author", "bookmark", "external", "help", "icon", "license", "next", "nofollow", "noopener", "noreferrer", "prefetch", "prev", "search", "stylesheet", "tag"],
+      "role": ["alert", "alertdialog", "application", "article", "banner", "button", "cell", "checkbox", "columnheader", "combobox", "complementary", "contentinfo", "definition", "dialog", "directory", "document", "feed", "figure", "form", "grid", "gridcell", "group", "heading", "img", "link", "list", "listbox", "listitem", "log", "main", "marquee", "math", "menu", "menubar", "menuitem", "menuitemcheckbox", "menuitemradio", "navigation", "none", "note", "option", "presentation", "progressbar", "radio", "radiogroup", "region", "row", "rowgroup", "rowheader", "scrollbar", "search", "searchbox", "separator", "slider", "spinbutton", "status", "switch", "tab", "table", "tabpanel", "term", "textbox", "timer", "toolbar", "tooltip", "tree", "treegrid", "treeitem"],
+      "sandbox": ["allow-forms", "allow-pointer-lock", "allow-popups", "allow-presentation", "allow-same-origin", "allow-scripts", "allow-top-navigation"],
+      "shape": ["circle", "circ", "default", "poly", "polygon", "rect", "rectangle"],
+      "spellcheck": ["true", "false", ""],
+      "target": ["_blank", "_self", "_parent", "_top"],
+      "translate": ["yes", "no", ""],
+      "type": {
+        "input": ["hidden", "text", "search", "tel", "url", "email", "password", "date", "month", "week", "time", "datetime-local", "number", "range", "color", "checkbox", "radio", "file", "submit", "image", "reset", "button"],
+        "ol": ["decimal", "lower-alpha", "upper-alpha", "lower-roman", "upper-roman"]
+      },
+      "wrap": ["soft", "hard"]
+    },
+    "wai-aria": {
+      "aria-autocomplete": ["inline", "list", "both", "none"],
+      "aria-busy": ["true", "false"],
+      "aria-checked": ["true", "false", "mixed", "undefined"],
+      "aria-current": ["page", "step", "location", "date", "time", "true", "false"],
+      "aria-disabled": ["true", "false"],
+      "aria-expanded": ["true", "false", "undefined"],
+      "aria-haspopup": ["true", "false", "menu", "listbox", "tree", "grid", "dialog"],
+      "aria-hidden": ["true", "false", "undefined"],
+      "aria-invalid": ["true", "false", "grammar", "spelling"],
+      "aria-polite": ["assertive", "off", "polite"],
+      "aria-modal": ["true", "false"],
+      "aria-multiline": ["true", "false"],
+      "aria-multiselectable": ["true", "false"],
+      "aria-orientation": ["horizontal", "vertical", "undefined"],
+      "aria-pressed": ["true", "false", "mixed", "undefined"],
+      "aria-readonly": ["true", "false"],
+      "aria-relevant": ["additions", "additions text", "all", "removals", "text"],
+      "aria-required": ["true", "false"],
+      "aria-selected": ["true", "false", "undefined"],
+      "aria-sort": ["ascending", "descending", "none", "other"]
+    }
+  }
+}
